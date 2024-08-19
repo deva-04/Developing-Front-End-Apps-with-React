@@ -2,12 +2,15 @@
   "name": "shoppingcart",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://deva-04.github.io/Developing-Front-End-Apps-with-React-IBM/Paradise_Nursery_finalProject",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite build; vite preview --host"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.2.3",

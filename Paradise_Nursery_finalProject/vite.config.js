@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/Developing-Front-End-Apps-with-React-IBM/', // Adjust this to match the repository name
+ base: '/deva-04/', 
   plugins: [react()],
 })

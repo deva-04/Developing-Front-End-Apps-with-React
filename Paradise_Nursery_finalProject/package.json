@@ -2,7 +2,7 @@
   "name": "shoppingcart",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://deva-04.github.io/Developing-Front-End-Apps-with-React-IBM/Paradise_Nursery_finalProject",
+  "homepage": "https://deva-04.github.io/deva-04",
   "type": "module",
   "scripts": {
     "dev": "vite",

@@ -5,6 +5,11 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   //base: "/shoppingreact",
   //base: "/deva-04",
-  base: "/Developing-Front-End-Apps-with-React-IBM/Paradise_Nursery_finalProject/",
+   base: '/Developing-Front-End-Apps-with-React-IBM/Paradise_Nursery_finalProject/',
   plugins: [react()],
+  build: {
+    rollupOptions: {
+      external: ['/Developing-Front-End-Apps-with-React-IBM/Paradise_Nursery_finalProject/assets/*']
+    }
+  }
 })
